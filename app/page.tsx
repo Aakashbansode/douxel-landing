@@ -48,20 +48,23 @@ export default function Home() {
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
 
         <div className="relative z-10 text-white px-6">
           <h1 className="text-7xl md:text-8xl font-serif tracking-widest mb-6">
-            Douxel™
+            DOUXEL™
           </h1>
 
-          <p className="text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed">
-            Luxury lingerie and feminine fashion crafted for confidence,
-            elegance and modern intimacy.
+          <p className="text-lg md:text-xl max-w-xl mx-auto mb-6 leading-relaxed">
+            Define Your Own Expression of Elegance & Luxury
+          </p>
+
+          <p className="text-sm md:text-base max-w-md mx-auto mb-10 text-gray-200">
+            Luxury that is not for the world — but for yourself.
           </p>
 
           <button className="border border-white px-10 py-3 hover:bg-white hover:text-black transition duration-300 tracking-wide">
-            Discover More
+            Launching Soon
           </button>
         </div>
       </section>
@@ -69,22 +72,24 @@ export default function Home() {
       {/* BRAND STATEMENT */}
       <section className="py-28 px-6 text-center max-w-4xl mx-auto">
         <h2 className="text-4xl font-serif mb-6 tracking-wide">
-          Where Elegance Meets Desire
+          Not Made to Impress. Made to Express.
         </h2>
 
         <p className="text-lg text-gray-600 leading-relaxed">
-          Douxel™ celebrates feminine confidence through timeless design,
-          delicate fabrics, and luxurious silhouettes. Each piece is crafted
-          to make women feel powerful, sensual and unforgettable.
+          DOUXEL™ is a luxury women’s fashion brand built for those who choose
+          themselves. Beyond trends and expectations, we create pieces that
+          reflect confidence, individuality, and quiet elegance.
         </p>
       </section>
 
       {/* EMAIL SUBSCRIBE */}
       <section className="py-28 bg-white text-center">
-        <h2 className="text-4xl font-serif mb-4">Join The Inner Circle</h2>
+        <h2 className="text-4xl font-serif mb-4">
+          Join The Inner Circle
+        </h2>
 
         <p className="text-gray-600 mb-10">
-          Be the first to experience our exclusive launch.
+          Be the first to experience DOUXEL™. Early access. Exclusive drops.
         </p>
 
         <div className="flex flex-col items-center gap-5">
@@ -101,7 +106,7 @@ export default function Home() {
             disabled={loading}
             className="px-10 py-3 border border-black hover:bg-black hover:text-white transition duration-300 tracking-wide"
           >
-            {loading ? "Subscribing..." : "Join Now"}
+            {loading ? "Joining..." : "Get Early Access"}
           </button>
 
           {message && (
@@ -112,7 +117,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="py-10 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Douxel™ — Luxury Intimates
+        © {new Date().getFullYear()} DOUXEL™ — Luxury Women’s Fashion
       </footer>
     </main>
   );
