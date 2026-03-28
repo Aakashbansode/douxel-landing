@@ -16,16 +16,16 @@ const mobileImages = [
 
 const featureCards = [
   {
-    title: "Signature Aesthetic",
-    text: "A world of deep tones, soft light, and refined femininity crafted to express sensual elegance with quiet strength.",
+    title: "Monochrome Palette",
+    text: "A refined black-on-black system with warm neutral highlights for a premium night-editorial feel.",
   },
   {
-    title: "Graceful Presence",
-    text: "Each detail is designed to feel poised and intentional, echoing the confidence, softness, and allure of the modern woman.",
+    title: "Responsive Rhythm",
+    text: "Typography, spacing, and layout scale smoothly from mobile screens to large desktop hero compositions.",
   },
   {
-    title: "Cohesive Identity",
-    text: "From first impression to final detail, the brand speaks with one voice: timeless, intimate, and unmistakably luxurious.",
+    title: "Focused Experience",
+    text: "Every section now supports the same luxury identity so the page feels cohesive instead of split.",
   },
 ];
 
@@ -222,11 +222,12 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/8 px-5 py-8 text-center text-xs uppercase tracking-[0.18em] text-stone-500 sm:px-8 sm:text-sm lg:px-12 xl:px-16">
-        <p>Copyright {new Date().getFullYear()} DOUXEL Luxury Women&apos;s Fashion</p>
-        <p className="mt-2 text-[11px] tracking-wide text-gray-600 normal-case">
-          Operated by Cieldoux Innovations Private Limited
-        </p>
+        Copyright {new Date().getFullYear()} DOUXEL Luxury Women&apos;s Fashion
+         <p className="mt-2 text-[11px] tracking-wide text-gray-600">
+    Operated by Cieldoux Innovations Private Limited
+  </p>
       </footer>
+     
     </main>
   );
 }
