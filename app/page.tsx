@@ -16,16 +16,16 @@ const mobileImages = [
 
 const featureCards = [
   {
-    title: "Monochrome Palette",
-    text: "A refined black-on-black system with warm neutral highlights for a premium night-editorial feel.",
+    title: "Noir Signature",
+    text: "A deep black palette softened by warm neutrals, creating a sensual editorial mood with quiet luxury at its core.",
   },
   {
-    title: "Responsive Rhythm",
-    text: "Typography, spacing, and layout scale smoothly from mobile screens to large desktop hero compositions.",
+    title: "Fluid Presence",
+    text: "Proportions, spacing, and typography adapt with ease, preserving the same poised presence from mobile to full-screen view.",
   },
   {
-    title: "Focused Experience",
-    text: "Every section now supports the same luxury identity so the page feels cohesive instead of split.",
+    title: "House Identity",
+    text: "Each section speaks the same refined language, giving the entire experience a cohesive, elevated, and unmistakably Douxel feel.",
   },
 ];
 
@@ -175,12 +175,11 @@ export default function Home() {
             Inner Circle
           </p>
           <h2 className="mt-4 max-w-xl font-serif text-4xl leading-tight text-stone-50 sm:text-5xl">
-            Join the waitlist for first access, private drops, and launch news.
+            Join the private list for first access, limited releases, and house updates.
           </h2>
           <p className="mt-5 max-w-xl text-base leading-8 text-stone-300">
-            A darker, more editorial page deserves an equally polished sign-up
-            experience. The form now sits inside a black glass panel and stays
-            easy to use across screen sizes.
+            Created for those drawn to discreet luxury, the sign-up experience
+            feels intimate, polished, and effortless across every screen.
           </p>
         </div>
 
@@ -190,8 +189,8 @@ export default function Home() {
               Get Early Access
             </p>
             <p className="mt-3 text-sm leading-7 text-stone-300">
-              Be the first to experience Douxel. Early access. Exclusive
-              arrivals. Members-only launch notes.
+              Receive early entry to the world of Douxel, along with exclusive
+              arrivals, private drops, and first word on the launch.
             </p>
 
             <div className="mt-8 flex flex-col gap-4">
