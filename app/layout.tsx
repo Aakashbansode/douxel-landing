@@ -1,36 +1,23 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 import Script from "next/script";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Douxel™ | Luxury Lingerie & Feminine Fashion",
+  title: "Douxel | Luxury Lingerie & Feminine Fashion",
   description:
-    "Douxel™ – Redefining modern intimacy. Luxury lingerie & feminine fashion crafted for confidence.",
+    "Douxel - Redefining modern intimacy. Luxury lingerie and feminine fashion crafted for confidence.",
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="antialiased">
         {children}
 
         {GA_ID && (
